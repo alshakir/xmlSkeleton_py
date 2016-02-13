@@ -37,7 +37,7 @@ now Imagein that you are having many books elements and every element differ tha
 ```xml
 <bookstore>
   <book hardcover=''>
-    <author firstName ='' lastName='' nickName='' country='' /> 
+    <author firstName='' lastName='' nickName='' country='' /> 
     <price currency='' />
     <version/>
   </book>
