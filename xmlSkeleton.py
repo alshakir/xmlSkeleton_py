@@ -7,7 +7,7 @@ import datetime as dt
 
 ''' *** You only need to change the following variables ****'''
 #working directory
-path = 'C:/Users/shakir/Downloads/'
+path = 'C:/working/directory/goes-here'
 # the file to be explored ( it should be located in the working directory)
 fileToDisect = 'riyadh_saudi-arabia.osm'
 # the result file ( will be created in the working directory)
