@@ -43,7 +43,32 @@ now Imagein that you are having many books elements and every element differ tha
   </book>
 </bookstore>
 ```
+### Disadvatage(s) and limitation(s):
+- Although it can show the skeleton of any XML file. However it canpt show the element that has mutually execluded items. e.g.:
+```
+<bookstore>
+<book>
+<type ebook="True"/>
+</book>
 
+<book>
+<type paperback="True"/>
+</book>
+
+</bookstore>
+```
+
+now suppose that the type of the book version is either ebook or paperback but not both ( just assume that). This code will not detect that . it will give both attribute on the same element as follow
+
+```
+<bookstore>
+<book>
+<type ebook="True" paperback="True"/>
+</book>
+</bookstore>
+```
+
+- The second disadvantage is that this code didn't take in consideration the namespaces elements.
 
 ## Get started
 
